@@ -128,10 +128,9 @@ require("mason").setup()
 -- Define servers and server-specific config
 local servers = {
   bashls = {},
-  clangd = {},
   pylsp = {},
   texlab = {},
-  -- html = { filetypes = { "html", "twig", "hbs"} },
+  html = { filetypes = { "html", "twig", "hbs"} },
 
   lua_ls = {
     Lua = {
